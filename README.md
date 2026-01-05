@@ -1,5 +1,5 @@
 
-# 🔐 MATLAB Robust Facial Recognition & Authentication System
+# MATLAB Robust Facial Recognition & Authentication System
 
 A secure biometric verification system built in MATLAB that combines geometric feature matching with advanced texture analysis and multi-method segmentation. This project was designed to achieve high-accuracy identity verification while demonstrating advanced computer vision techniques.
 
@@ -51,7 +51,7 @@ To ensure robust Region of Interest (ROI) extraction, the system visually compar
     ```
 2.  **Prepare the Database:**
     * Place known reference photos in the `FaceDB/` folder.
-    * *Note: For privacy, the uploaded repo contains dummy/empty placeholders.*
+    
 3.  **Set the Query:**
     * Place the image you want to test inside the `query/` folder.
 
@@ -75,7 +75,5 @@ The system was evaluated against a mixed dataset of positive and negative sample
 * **Confusion Matrix:** visualizes the perfect classification accuracy.
 * **Distance Bar Chart:** Displays the safety margin between the Target User and Imposters relative to the 0.675 threshold.
 
----
 
-## 📝 License
-This project is open-source and available for educational and research purposes.
+
